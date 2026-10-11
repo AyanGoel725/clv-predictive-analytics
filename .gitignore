@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
+
+# Commit only the final selected runs; local runtime/caches stay untracked.
+/review_archive/
+/outputs/runs/*/
+!/outputs/runs/f0095e2660d447bd9df382f307062afb/
+/outputs/score_runs/*/
+!/outputs/score_runs/a8f54120f11648ea87a4028cc6c98e95/
+

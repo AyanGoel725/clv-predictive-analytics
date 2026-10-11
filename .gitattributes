@@ -1,0 +1,3 @@
+# Manifests hash exact bytes. Preserve source and artifact line endings
+# on Git checkin/checkout, regardless of core.autocrlf.
+* -text

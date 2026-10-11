@@ -1,0 +1,1 @@
+account_id,array_id,observation_date,feature_as_of,label_window_end,label_available_at,contract_end_date,historical_15yr_net_profit_usd,current_capacity_tb,utilization_rate_pct,expansion_potential_signal,churn_event_next_12m

@@ -1,0 +1,5 @@
+risk_bucket,arrays,churns,observed_rate,signed_historical_profit_usd
+CRITICAL,0.0,0.0,,0.0
+HIGH,0.0,0.0,,0.0
+MEDIUM,1661.0,263.0,0.1583383503913305,3543978757.0
+LOW,223.0,35.0,0.15695067264573992,509152868.0
