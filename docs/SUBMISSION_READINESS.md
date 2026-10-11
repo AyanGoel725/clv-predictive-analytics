@@ -9,8 +9,10 @@ scripts are complete and locally checked. The full business mandate is only part
 empirically demonstrable from the supplied cross-sectional dataset. Account
 cancellation, true historical validation, product-family results and learned
 15-year/expansion outcomes must not be claimed without their corresponding data.
-Snowflake execution remains unverified. The final PDF and published GitHub revision
-are still to be prepared. This is a locally verified, data-limited case study,
+Snowflake execution remains unverified. The final PDF is still to be prepared.
+The project is published at [AyanGoel725/clv-predictive-analytics](https://github.com/AyanGoel725/clv-predictive-analytics)
+on `main`; record the exact published commit in the PDF.
+This is a locally verified, data-limited case study,
 not proof that every business outcome in the mandate has been demonstrated.
 
 ## Verified delivery
@@ -48,7 +50,7 @@ not proof that every business outcome in the mandate has been demonstrated.
 | Historical validation | Rolling-origin workflow with as-of/maturity guards and per-window preprocessing/calibration; fixture tests | Original CSV lacks genuine observation and label-availability timestamps |
 | Product cohorts | Actual lookup interface, both baselines, XGB/RF/ensemble diagnostics; dated families supported in temporal runs | No lookup provided; existing expiry-year/expansion cohorts remain proxies |
 | Warehouse deliverables | Physical CLV_SCORED_OUTPUT, history/current/ledger transaction, replay/rollback and reconciliation scripts | No live sandbox compilation, load or acceptance query IDs |
-| Technical handover | Executed notebooks, pinned environment, input contracts, hashes, test/verification commands and README | PDF and published repository/commit verification pending |
+| Technical handover | Executed notebooks, pinned environment, input contracts, hashes, test/verification commands, README and public GitHub repository | PDF and its exact revision link remain to be assembled |
 
 ## Quantitative conclusion
 
@@ -87,9 +89,9 @@ templates, not additional evidence or unfinished training data.
    SHAP units, account semantics, scenario assumptions and the warehouse architecture.
 3. Run `sql/sandbox_acceptance.sql` and retain query IDs if sandbox access becomes
    available; otherwise disclose that live warehouse execution was not tested.
-4. Publish the cleaned repository, record its commit SHA and verify access. Repeat
-   the verification on that published revision before submitting the PDF with
-   its revision link; the local Git checkout verification has already passed.
+4. Use the public repository above and record the final commit SHA in the PDF.
+   Verify the report refers to that exact published revision; the local Git
+   checkout verification has already passed.
 
 Missing business inputs and exact schemas are in `REMAINING_DATA_CONTRACTS.md`.
 Providing fictitious longitudinal history, account cancellations or product labels

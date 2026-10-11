@@ -1,10 +1,12 @@
 # Storage-array churn and CLV scenario case study
 
+Public repository: [AyanGoel725/clv-predictive-analytics](https://github.com/AyanGoel725/clv-predictive-analytics).
+
 This project estimates next-12-month **array-event** probability from a cross-sectional storage dataset. It provides account-grouped validation, calibrated XGBoost/Random Forest candidates, a portfolio-rate challenger, XGB explanations, account array-event summaries, capacity diagnostics, per-array 15-year scenarios, a guarded chronological evaluation workflow, and a Snowflake ingestion design.
 
 **Status:** finalized local submission with verified evidence and scoring artifacts. Live Snowflake execution, account-cancellation semantics, label maturity, individual retention targeting and 15-year predictive accuracy are not established. The delivered run is identified below; `latest_run.json` and `latest_score_run.json` select its evidence and scoring artifacts. Archived submissions, superseded runs and redundant legacy scripts have been removed.
 
-[Final readiness review](docs/SUBMISSION_READINESS.md) maps each mandate to the implemented evidence and remaining data/execution limits. The expanded suite passes 43 regression tests. The local project is ready for PDF preparation with those limitations disclosed; GitHub publishing and final report assembly remain.
+[Final readiness review](docs/SUBMISSION_READINESS.md) maps each mandate to the implemented evidence and remaining data/execution limits. The expanded suite passes 43 regression tests. The project is published and ready for PDF preparation with those limitations disclosed; final report assembly remains. Include the exact GitHub commit link in the PDF.
 
 ## Data and target contract
 
